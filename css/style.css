@@ -10,8 +10,16 @@ button {
   font-size: 125%;
 }
 
+h1 {
+  font-family: sans-serif;
+}
+
+.heading {
+  font-size: 250%;
+}
+
 .btns {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .modal {
@@ -22,4 +30,8 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -60%);
+}
+
+.hide {
+  display: none;
 }
