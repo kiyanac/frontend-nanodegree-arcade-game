@@ -6,12 +6,38 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-   <div class="btns">
+  <h1 class="heading">Arcade Game</h1>
+
+  <!-- Pause/Play buttons and modal -->
+  <div class="btns">
     <button class="pauseBtn">Pause</button>
-    <button class="playBtn">Play</button>
   </div>
-    
+
+  <div id="pauseModal" class="modal">
+
+    <div class="modal-content">
+      <h1 class="title">Game Paused</h1>
+
+      <div class="btns">
+        <button class="playBtn">Play</button>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+
+  <!-- Play Again button and Win modal -->
+  <div id="winModal" class="modal hide">
+
+    <div class="modal-content">
+      <h1 class="title">You Won!</h1>
+
+      <div class="btns">
+        <button class="restartBtn">Restart</button>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
